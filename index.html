@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Mimic Tycoon - Speedrun Leaderboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header Section -->
+        <header class="app-header">
+            <div class="header-content">
+                <div class="game-title">
+                    <h1>The Mimic Tycoon</h1>
+                    <p class="subtitle">Speedrun Leaderboard</p>
+                </div>
+                <div class="header-stats">
+                    <div class="stat-item">
+                        <i class="fas fa-trophy"></i>
+                        <span>Top Runs</span>
+                    </div>
+                    <div class="stat-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Live Updates</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation Tabs -->
+        <nav class="main-navigation">
+            <div class="nav-container">
+                <button class="nav-tab active" data-section="chapters">
+                    <i class="fas fa-book-open"></i>
+                    <span>Main Chapters</span>
+                </button>
+                <button class="nav-tab" data-section="gamemodes">
+                    <i class="fas fa-gamepad"></i>
+                    <span>Gamemodes</span>
+                </button>
+                <button class="nav-tab" data-section="legacy">
+                    <i class="fas fa-archive"></i>
+                    <span>Legacy Chapters</span>
+                </button>
+            </div>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            <!-- Chapters Section -->
+            <section id="chapters" class="content-section active">
+                <div class="section-header">
+                    <h2>Main Chapters</h2>
+                    <p>Complete all main story chapters with the fastest times</p>
+                </div>
+                
+                <div class="chapters-grid">
+                    <!-- Chapter 1 -->
+                    <div class="chapter-card" data-chapter="1">
+                        <div class="card-header">
+                            <h3>Chapter 1</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="chapter1-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="chapter1-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Chapter 2 -->
+                    <div class="chapter-card" data-chapter="2">
+                        <div class="card-header">
+                            <h3>Chapter 2</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="chapter2-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="chapter2-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Chapter 3 -->
+                    <div class="chapter-card" data-chapter="3">
+                        <div class="card-header">
+                            <h3>Chapter 3</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="chapter3-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="chapter3-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Chapter 4 -->
+                    <div class="chapter-card" data-chapter="4">
+                        <div class="card-header">
+                            <h3>Chapter 4</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="chapter4-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="chapter4-nightmare"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Gamemodes Section -->
+            <section id="gamemodes" class="content-section">
+                <div class="section-header">
+                    <h2>Gamemodes</h2>
+                    <p>Special challenge modes with unique mechanics</p>
+                </div>
+                
+                <div class="gamemodes-grid">
+                    <!-- Witch Trials -->
+                    <div class="gamemode-card" data-gamemode="witch-trials">
+                        <div class="card-header">
+                            <h3>The Witch Trials</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="witch-trials-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="witch-trials-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Jigoku -->
+                    <div class="gamemode-card" data-gamemode="jigoku">
+                        <div class="card-header">
+                            <h3>Jigoku</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="jigoku-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="jigoku-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Christmas Trials -->
+                    <div class="gamemode-card" data-gamemode="christmas-trials">
+                        <div class="card-header">
+                            <h3>Christmas Trials</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="christmas-trials-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="christmas-trials-nightmare"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Legacy Chapters Section -->
+            <section id="legacy" class="content-section">
+                <div class="section-header">
+                    <h2>Legacy Chapters</h2>
+                    <p>Classic chapters from earlier versions</p>
+                </div>
+                
+                <div class="legacy-grid">
+                    <!-- Legacy Chapter 1 -->
+                    <div class="legacy-card" data-legacy="1">
+                        <div class="card-header">
+                            <h3>Legacy Chapter 1</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="legacy1-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="legacy1-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Legacy Chapter 2 -->
+                    <div class="legacy-card" data-legacy="2">
+                        <div class="card-header">
+                            <h3>Legacy Chapter 2</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="legacy2-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="legacy2-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Legacy Chapter 3 -->
+                    <div class="legacy-card" data-legacy="3">
+                        <div class="card-header">
+                            <h3>Legacy Chapter 3</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="legacy3-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="legacy3-nightmare"></div>
+                        </div>
+                    </div>
+
+                    <!-- Legacy Chapter 4 -->
+                    <div class="legacy-card" data-legacy="4">
+                        <div class="card-header">
+                            <h3>Legacy Chapter 4</h3>
+                            <div class="difficulty-tabs">
+                                <button class="diff-tab active" data-difficulty="normal">Normal</button>
+                                <button class="diff-tab" data-difficulty="nightmare">Nightmare</button>
+                            </div>
+                        </div>
+                        
+                        <div class="runs-display active" data-difficulty="normal">
+                            <div class="runs-list" data-category="legacy4-normal"></div>
+                        </div>
+                        
+                        <div class="runs-display" data-difficulty="nightmare">
+                            <div class="runs-list" data-category="legacy4-nightmare"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="app-footer">
+            <div class="footer-content">
+                <p>&copy; 2024 The Mimic Tycoon Speedrun Community</p>
+                <div class="footer-links">
+                    <a href="#" class="footer-link">About</a>
+                    <a href="#" class="footer-link">Rules</a>
+                    <a href="#" class="footer-link">Submit Run</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 

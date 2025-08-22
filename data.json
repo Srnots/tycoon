@@ -1,0 +1,470 @@
+{
+  "chapters": {
+    "chapter1": {
+      "normal": [
+        {
+          "runnerName": "SpeedRunner1",
+          "time": "12:34",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=example1"
+        },
+        {
+          "runnerName": "FastPlayer2",
+          "time": "13:45",
+          "date": "2024-01-16",
+          "video": "https://youtube.com/watch?v=example2"
+        },
+        {
+          "runnerName": "QuickGamer3",
+          "time": "14:12",
+          "date": "2024-01-17",
+          "video": ""
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmareMaster",
+          "time": "18:22",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=nightmare1"
+        },
+        {
+          "runnerName": "DarkRunner",
+          "time": "19:05",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearlessPlayer",
+          "time": "20:18",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=nightmare2"
+        }
+      ]
+    },
+    "chapter2": {
+      "normal": [
+        {
+          "runnerName": "Chapter2Pro",
+          "time": "15:30",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=ch2normal1"
+        },
+        {
+          "runnerName": "SpeedDemon",
+          "time": "16:15",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "QuickFinish",
+          "time": "17:02",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=ch2normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmarePro",
+          "time": "22:45",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=ch2nightmare1"
+        },
+        {
+          "runnerName": "DarkMaster",
+          "time": "23:30",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearRunner",
+          "time": "24:15",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=ch2nightmare2"
+        }
+      ]
+    },
+    "chapter3": {
+      "normal": [
+        {
+          "runnerName": "Chapter3Expert",
+          "time": "18:20",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=ch3normal1"
+        },
+        {
+          "runnerName": "SpeedMaster",
+          "time": "19:05",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "QuickPro",
+          "time": "19:48",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=ch3normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmareExpert",
+          "time": "26:30",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=ch3nightmare1"
+        },
+        {
+          "runnerName": "DarkExpert",
+          "time": "27:15",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearExpert",
+          "time": "28:02",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=ch3nightmare2"
+        }
+      ]
+    },
+    "chapter4": {
+      "normal": [
+        {
+          "runnerName": "Chapter4Master",
+          "time": "21:15",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=ch4normal1"
+        },
+        {
+          "runnerName": "FinalSpeed",
+          "time": "22:00",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "UltimateRunner",
+          "time": "22:45",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=ch4normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmareMaster",
+          "time": "30:15",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=ch4nightmare1"
+        },
+        {
+          "runnerName": "DarkUltimate",
+          "time": "31:00",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearUltimate",
+          "time": "31:45",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=ch4nightmare2"
+        }
+      ]
+    }
+  },
+  "gamemodes": {
+    "witch-trials": {
+      "normal": [
+        {
+          "runnerName": "WitchHunter",
+          "time": "25:30",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=witchnormal1"
+        },
+        {
+          "runnerName": "TrialRunner",
+          "time": "26:15",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "WitchMaster",
+          "time": "27:00",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=witchnormal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmareWitch",
+          "time": "35:45",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=witchnightmare1"
+        },
+        {
+          "runnerName": "DarkWitch",
+          "time": "36:30",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearWitch",
+          "time": "37:15",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=witchnightmare2"
+        }
+      ]
+    },
+    "jigoku": {
+      "normal": [
+        {
+          "runnerName": "JigokuRunner",
+          "time": "28:20",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=jigokunormal1"
+        },
+        {
+          "runnerName": "HellRunner",
+          "time": "29:05",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "JigokuMaster",
+          "time": "29:50",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=jigokunormal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmareJigoku",
+          "time": "38:30",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=jigokunightmare1"
+        },
+        {
+          "runnerName": "DarkJigoku",
+          "time": "39:15",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearJigoku",
+          "time": "40:00",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=jigokunightmare2"
+        }
+      ]
+    },
+    "christmas-trials": {
+      "normal": [
+        {
+          "runnerName": "ChristmasRunner",
+          "time": "22:45",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=christmasnormal1"
+        },
+        {
+          "runnerName": "HolidayRunner",
+          "time": "23:30",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "ChristmasMaster",
+          "time": "24:15",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=christmasnormal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "NightmareChristmas",
+          "time": "32:15",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=christmasnightmare1"
+        },
+        {
+          "runnerName": "DarkChristmas",
+          "time": "33:00",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "FearChristmas",
+          "time": "33:45",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=christmasnightmare2"
+        }
+      ]
+    }
+  },
+  "legacy": {
+    "legacy1": {
+      "normal": [
+        {
+          "runnerName": "LegacyRunner1",
+          "time": "10:30",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy1normal1"
+        },
+        {
+          "runnerName": "OldSchool1",
+          "time": "11:15",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyMaster1",
+          "time": "12:00",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy1normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "LegacyNightmare1",
+          "time": "15:45",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy1nightmare1"
+        },
+        {
+          "runnerName": "OldNightmare1",
+          "time": "16:30",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyFear1",
+          "time": "17:15",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy1nightmare2"
+        }
+      ]
+    },
+    "legacy2": {
+      "normal": [
+        {
+          "runnerName": "LegacyRunner2",
+          "time": "11:45",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy2normal1"
+        },
+        {
+          "runnerName": "OldSchool2",
+          "time": "12:30",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyMaster2",
+          "time": "13:15",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy2normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "LegacyNightmare2",
+          "time": "17:00",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy2nightmare1"
+        },
+        {
+          "runnerName": "OldNightmare2",
+          "time": "17:45",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyFear2",
+          "time": "18:30",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy2nightmare2"
+        }
+      ]
+    },
+    "legacy3": {
+      "normal": [
+        {
+          "runnerName": "LegacyRunner3",
+          "time": "13:00",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy3normal1"
+        },
+        {
+          "runnerName": "OldSchool3",
+          "time": "13:45",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyMaster3",
+          "time": "14:30",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy3normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "LegacyNightmare3",
+          "time": "18:15",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy3nightmare1"
+        },
+        {
+          "runnerName": "OldNightmare3",
+          "time": "19:00",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyFear3",
+          "time": "19:45",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy3nightmare2"
+        }
+      ]
+    },
+    "legacy4": {
+      "normal": [
+        {
+          "runnerName": "LegacyRunner4",
+          "time": "14:15",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy4normal1"
+        },
+        {
+          "runnerName": "OldSchool4",
+          "time": "15:00",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyMaster4",
+          "time": "15:45",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy4normal2"
+        }
+      ],
+      "nightmare": [
+        {
+          "runnerName": "LegacyNightmare4",
+          "time": "19:30",
+          "date": "2024-01-15",
+          "video": "https://youtube.com/watch?v=legacy4nightmare1"
+        },
+        {
+          "runnerName": "OldNightmare4",
+          "time": "20:15",
+          "date": "2024-01-16",
+          "video": ""
+        },
+        {
+          "runnerName": "LegacyFear4",
+          "time": "21:00",
+          "date": "2024-01-17",
+          "video": "https://youtube.com/watch?v=legacy4nightmare2"
+        }
+      ]
+    }
+  }
+} 
