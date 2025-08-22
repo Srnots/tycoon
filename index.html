@@ -5,56 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Mimic Tycoon - Speedrun Leaderboard</title>
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <div class="app-container">
-        <!-- Header Section -->
+        <!-- Header -->
         <header class="app-header">
             <div class="header-content">
                 <div class="game-title">
                     <h1>The Mimic Tycoon</h1>
                     <p class="subtitle">Speedrun Leaderboard</p>
                 </div>
-                <div class="header-stats">
-                    <div class="stat-item">
-                        <i class="fas fa-trophy"></i>
-                        <span>Top Runs</span>
-                    </div>
-                    <div class="stat-item">
-                        <i class="fas fa-clock"></i>
-                        <span>Live Updates</span>
-                    </div>
-                </div>
             </div>
         </header>
 
-        <!-- Navigation Tabs -->
+        <!-- Navigation -->
         <nav class="main-navigation">
             <div class="nav-container">
                 <button class="nav-tab active" data-section="chapters">
-                    <i class="fas fa-book-open"></i>
-                    <span>Main Chapters</span>
+                    <i class="fas fa-book"></i>
+                    Main Chapters
                 </button>
                 <button class="nav-tab" data-section="gamemodes">
                     <i class="fas fa-gamepad"></i>
-                    <span>Gamemodes</span>
+                    Gamemodes
                 </button>
                 <button class="nav-tab" data-section="legacy">
                     <i class="fas fa-archive"></i>
-                    <span>Legacy Chapters</span>
+                    Legacy Chapters
                 </button>
             </div>
         </nav>
 
-        <!-- Main Content Area -->
+        <!-- Main Content -->
         <main class="main-content">
             <!-- Chapters Section -->
-            <section id="chapters" class="content-section active">
+            <section class="content-section active" data-section="chapters">
                 <div class="section-header">
                     <h2>Main Chapters</h2>
-                    <p>Complete all main story chapters with the fastest times</p>
+                    <p>Complete all chapters and compete for the fastest times</p>
                 </div>
                 
                 <div class="chapters-grid">
@@ -137,14 +129,14 @@
             </section>
 
             <!-- Gamemodes Section -->
-            <section id="gamemodes" class="content-section">
+            <section class="content-section" data-section="gamemodes">
                 <div class="section-header">
                     <h2>Gamemodes</h2>
-                    <p>Special challenge modes with unique mechanics</p>
+                    <p>Special challenges and unique gameplay experiences</p>
                 </div>
                 
                 <div class="gamemodes-grid">
-                    <!-- Witch Trials -->
+                    <!-- The Witch Trials -->
                     <div class="gamemode-card" data-gamemode="witch-trials">
                         <div class="card-header">
                             <h3>The Witch Trials</h3>
@@ -155,11 +147,11 @@
                         </div>
                         
                         <div class="runs-display active" data-difficulty="normal">
-                            <div class="runs-list" data-category="witch-trials-normal"></div>
+                            <div class="runs-list" data-category="witchTrials-normal"></div>
                         </div>
                         
                         <div class="runs-display" data-difficulty="nightmare">
-                            <div class="runs-list" data-category="witch-trials-nightmare"></div>
+                            <div class="runs-list" data-category="witchTrials-nightmare"></div>
                         </div>
                     </div>
 
@@ -193,21 +185,21 @@
                         </div>
                         
                         <div class="runs-display active" data-difficulty="normal">
-                            <div class="runs-list" data-category="christmas-trials-normal"></div>
+                            <div class="runs-list" data-category="christmasTrials-normal"></div>
                         </div>
                         
                         <div class="runs-display" data-difficulty="nightmare">
-                            <div class="runs-list" data-category="christmas-trials-nightmare"></div>
+                            <div class="runs-list" data-category="christmasTrials-nightmare"></div>
                         </div>
                     </div>
                 </div>
             </section>
 
             <!-- Legacy Chapters Section -->
-            <section id="legacy" class="content-section">
+            <section class="content-section" data-section="legacy">
                 <div class="section-header">
                     <h2>Legacy Chapters</h2>
-                    <p>Classic chapters from earlier versions</p>
+                    <p>Classic chapters from previous versions</p>
                 </div>
                 
                 <div class="legacy-grid">
@@ -222,11 +214,11 @@
                         </div>
                         
                         <div class="runs-display active" data-difficulty="normal">
-                            <div class="runs-list" data-category="legacy1-normal"></div>
+                            <div class="runs-list" data-category="legacyChapter1-normal"></div>
                         </div>
                         
                         <div class="runs-display" data-difficulty="nightmare">
-                            <div class="runs-list" data-category="legacy1-nightmare"></div>
+                            <div class="runs-list" data-category="legacyChapter1-nightmare"></div>
                         </div>
                     </div>
 
@@ -241,11 +233,11 @@
                         </div>
                         
                         <div class="runs-display active" data-difficulty="normal">
-                            <div class="runs-list" data-category="legacy2-normal"></div>
+                            <div class="runs-list" data-category="legacyChapter2-normal"></div>
                         </div>
                         
                         <div class="runs-display" data-difficulty="nightmare">
-                            <div class="runs-list" data-category="legacy2-nightmare"></div>
+                            <div class="runs-list" data-category="legacyChapter2-nightmare"></div>
                         </div>
                     </div>
 
@@ -260,11 +252,11 @@
                         </div>
                         
                         <div class="runs-display active" data-difficulty="normal">
-                            <div class="runs-list" data-category="legacy3-normal"></div>
+                            <div class="runs-list" data-category="legacyChapter3-normal"></div>
                         </div>
                         
                         <div class="runs-display" data-difficulty="nightmare">
-                            <div class="runs-list" data-category="legacy3-nightmare"></div>
+                            <div class="runs-list" data-category="legacyChapter3-nightmare"></div>
                         </div>
                     </div>
 
@@ -279,11 +271,11 @@
                         </div>
                         
                         <div class="runs-display active" data-difficulty="normal">
-                            <div class="runs-list" data-category="legacy4-normal"></div>
+                            <div class="runs-list" data-category="legacyChapter4-normal"></div>
                         </div>
                         
                         <div class="runs-display" data-difficulty="nightmare">
-                            <div class="runs-list" data-category="legacy4-nightmare"></div>
+                            <div class="runs-list" data-category="legacyChapter4-nightmare"></div>
                         </div>
                     </div>
                 </div>
@@ -293,7 +285,7 @@
         <!-- Footer -->
         <footer class="app-footer">
             <div class="footer-content">
-                <p>&copy; 2024 The Mimic Tycoon Speedrun Community</p>
+                <p>&copy; 2024 The Mimic Tycoon Speedrun Leaderboard</p>
                 <div class="footer-links">
                     <a href="#" class="footer-link">About</a>
                     <a href="#" class="footer-link">Rules</a>
